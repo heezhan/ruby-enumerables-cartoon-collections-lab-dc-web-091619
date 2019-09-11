@@ -13,5 +13,5 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.index ("cheddar" || "gouda" || "camembert")
+  snacks.index (cheese_types)
 end
