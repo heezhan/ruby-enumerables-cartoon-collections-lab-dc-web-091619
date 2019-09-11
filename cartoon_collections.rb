@@ -13,6 +13,5 @@ end
 
 def find_the_cheese(snacks)
   number = snacks.index("cheddar" || "gouda" || "camembert")
-  bingo = snacks[number] 
-  return bingo
+  snacks[number] 
 end
