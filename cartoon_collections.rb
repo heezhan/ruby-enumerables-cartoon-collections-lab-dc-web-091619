@@ -12,6 +12,6 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(snacks)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.index(cheese_types.each)
+  index = snacks.index("cheddar" || "gouda" || "camembert")
+  return snacks[index]
 end
