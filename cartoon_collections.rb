@@ -12,5 +12,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(snacks)
-  snacks.index("cheddar" || "gouda" || "camembert")
+  number = snacks.index("cheddar" || "gouda" || "camembert")
+  bingo = snacks[number] 
+  return bingo
 end
